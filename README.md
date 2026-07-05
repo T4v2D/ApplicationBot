@@ -34,8 +34,8 @@
 
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone <url-репозитория>
-   cd <папка-проекта>
+   git clone https://github.com/T4v2D/ApplicationBot
+   cd ApplicationBot
    ```
 
 2. **Создайте виртуальное окружение (рекомендуется):**
