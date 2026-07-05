@@ -7,7 +7,7 @@ from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.fsm.context import FSMContext
 dp = Dispatcher()
-TOKEN = "7527530110:AAGbEpL--yYR-aVVe3ZKXOgDM3ZG-wQqGT0"
+TOKEN = ""
 bot = Bot(token=TOKEN)
 con = sqlite3.connect("applications.db")
 cur = con.cursor()
