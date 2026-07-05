@@ -97,9 +97,8 @@
 
 ## Контакты
 
-Разработчик: [Ваше имя / никнейм]  
-Telegram: [@your_username]  
-Email: [your@email.com]
+Разработчик: Дмитрий / T4v2D  
+Email: mavatatamav65@gmail.com
 
 ---
 
