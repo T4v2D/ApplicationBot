@@ -121,7 +121,7 @@ async def processComments(message: Message, state: FSMContext) -> None:
     row = cur.fetchone()
     userid = row[0] if row else None
     if userid is not None:
-        try: await bot.send_message(chat_id = userid, text = f"Оставили заявку.\nID заявки: {data['ID']}\nID пользователя: {data['UserID']}\nИмя: {data['Name']}\nКонтакты: [data['Contacts']}\nКомментарии: {data['Comments']}")
+        try: await bot.send_message(chat_id = userid, text = f"Оставили заявку.\nID заявки: {data['ID']}\nID пользователя: {data['UserID']}\nИмя: {data['Name']}\nКонтакты: {data['Contacts']}\nКомментарии: {data['Comments']}")
         except Exception as e:
             print(f"Ошибка отправки админу: {e}")
     await state.clear()
