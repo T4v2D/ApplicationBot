@@ -6,8 +6,12 @@ from aiogram.filters import CommandStart
 from aiogram.types import Message, ReplyKeyboardMarkup, KeyboardButton
 from aiogram.fsm.state import StatesGroup, State
 from aiogram.fsm.context import FSMContext
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 dp = Dispatcher()
-TOKEN = ""
+TOKEN = os.getenv("TOKEN")
 bot = Bot(token=TOKEN)
 con = sqlite3.connect("applications.db")
 db.pragma('journal_mode=WAL')
